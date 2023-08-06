@@ -1,0 +1,27 @@
+[project]
+name = "vscode.dev"
+version = "0.1.0"
+license = "MIT"
+authors = [
+  { name="Billy", email="billydevbusiness@gmail.com" },
+]
+readme = "README.md"
+
+packages = [
+    { include = "vscode" }
+]
+
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/billyeatcookies/vscode-dev"
+"Bug Tracker" = "https://github.com/billyeatcookies/vscode-dev/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
