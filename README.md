@@ -5,11 +5,11 @@ The fully featured web browser based code editor from Microsoft as a **lightweig
 
 ## Install
 ```
-pip install vscode
+pip install vscode.dev
 ```
 After installing the pypi package, you can simply run following from anywhere:
 ```
-python -m vscode
+python -m vscode.dev
 ```
 
 > **Important:**
